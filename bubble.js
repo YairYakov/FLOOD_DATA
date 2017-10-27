@@ -15,7 +15,7 @@ d3.csv("./data.csv", function(error, d){
     .data(d)            // data to use with the visualization
     .coords({
         "mute": ["anata"],
-        "value": "http://d3plus.org/topojson/countries.json"
+        "value": "https://d3plus.org/topojson/countries.json"
     }) // pass topojson coordinates
     .type("geo_map")              // visualization type
     .id("key")                // key for which our data is unique on
