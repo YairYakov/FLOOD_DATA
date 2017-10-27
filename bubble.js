@@ -19,7 +19,7 @@ d3.csv("./data.csv", function(error, d){
     }) // pass topojson coordinates
     .type("geo_map")              // visualization type
     .id("key")                // key for which our data is unique on
-    .text("name")                 // key to use for display text
+    .text("term2")                 // key to use for display text
     .color("pair_count")               // key for coloring countries
     // .tooltip(["year", "tags"])              // keys to place in tooltip
 
